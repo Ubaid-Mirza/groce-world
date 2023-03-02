@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(184, 245, 111);
+    background: radial-gradient(circle, rgba(184, 245, 111, 1) 0%, rgba(155, 218, 153, 1) 100%);
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+/* START OF FORM-CONTAINER */
+.form {
+    display: block;
+    margin: 0 auto;
+    background: rgb(198,255,255);
+    background: linear-gradient(90deg, rgba(198,255,255,1) 0%, rgb(255, 243, 243) 50%, rgba(250,219,243,1) 100%);
+    border-radius: 50px;
+}
+.form-heading-one {
+    color: rgba(43, 18, 18, 0.486);
+    font-weight: bold;
+}
+.form-heading-five {
+    color: rgb(106 183 126);
+    font-weight: bold;
+}
+
+.form-control {
+    font-weight: 900;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+}
+.form-control:hover {
+
+    background-color: rgb(231, 99, 99);
+    width: 100%;
+}
+.forgot-password-para{
+    font-weight: bold;
+}
+.forgot-password-link{
+    font-weight: bold;
+    color: brown;
+    text-decoration: none;
+}
+.button-login {
+    font-weight: 900;
+    background-color: bisque;
+}
+.signup-link{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+.para{
+    font-weight: bold;
+}
+.button-login:hover {
+    background-color: rgb(231, 99, 99);
+}
+/* END OF FORM-CONTAINER */
