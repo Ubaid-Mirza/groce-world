@@ -3,11 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+.view-all{
+    text-decoration: none;
+    color: red;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.cartt{
+    background-color: red;
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+}
 
 /* START OF NAVBAR-HEADER */
 .navbar-header{
     background: rgb(198,255,255);
     background: linear-gradient(90deg, rgba(198,255,255,1) 0%, rgb(255, 243, 243) 50%, rgba(250,219,243,1) 100%);
+}
+.nav-img{
+    width: 30%;
+}
+.nav-search{
+    width: 70%;
 }
 .offer-img{
     width: 110px;
@@ -54,12 +72,10 @@
   color: #3e8e41;
 }
 /* END OF NAVBAR-HEADER */
+/* START OF SIDEBAAR */
+
+  /* END OF SIDEBAAR */
 /* START OF CONTENT-ROW-ONE */
-.view-all{
-    text-decoration: none;
-    color: red;
-    font-weight: bold;
-}
 .row-bundles-safe{
     width: 100%;
 }
@@ -156,6 +172,7 @@
 }
 /* END OF FOOTER */
 /* responsive */
+
 @media only screen and (max-width: 1024px){
     .body-row-one{
         display: block !important;
@@ -173,3 +190,14 @@
     margin: 0 auto;
     }
 }
+
+@media only screen and (max-width: 992px){
+.offers{
+    display: none !important;
+}
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

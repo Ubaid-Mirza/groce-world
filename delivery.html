@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,18 +22,24 @@
     <!--START OF MAIN-WRAPPER-->
     <div class="wrapper">
         <!--START OF HEADER-NAVBAAR-->
-        <nav class="navbar navbar-header d-flex w-100">
-            <div class="container-fluid w-50">
+        <nav class="navbar navbar-header d-flex justify-content-between align-items-center w-100">
+            <div class="container-fluid nav-img">
                 <a class="navbar-brand" href="#">
                     <img src="logo/logo.png" alt="" class="images-fluid w-50">
                 </a>
             </div>
-            <div class="container-fluid d-flex justify-content-end w-50">
+           
+            <div class="container-fluid d-flex justify-content-end nav-search">
+                <form class="d-flex w-50">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="nav-search-btn w-50" type="submit">Search</button>
+                  </form>
                 <i class="fa fa-user px-5" style="font-size:30px"></i>
                 <i class="fa fa-shopping-cart px-2" style="font-size:30px"></i>
             </div>
         </nav>
         <!--END OF HEADER-NAVBAAR-->
+        <!-- START OF NAVBAAR-OFFERS -->
         <div class="offers d-flex justify-content-between align-items-center px-5">
             <img src="images/offer.jfif" alt="" class="img-fluid offer-img">
             <div class="dropdown">
@@ -90,14 +97,19 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn">Fresh</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
+                <h5 class="fw-bold text-danger"><a href="#" class="text-decoration-none text-danger">View More</a></h5>
             </div>
+
+
         </div>
+
+        <!-- END OF NAVBAAR-OFFERS -->
+        <!-- START OF SIDEBAAR -->
+        
+
+
+
+        <!-- END OF SIDEBAAR -->
         <!--START OF SLIDER -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -134,7 +146,7 @@
         <!--END OF PLAYSTORE-BUTTONS -->
         <!-- START OF OUR-PRODUCTS -->
         <div class="container-fluid my-5">
-            <h1 class="text-center fw-bold fs-1 my-3">Our Collections</h1>
+            <h1 class="text-center text-danger fw-bold fs-1 my-3">Our Collections</h1>
             <div class="row">
                 <div class="col-sm-12">
                     <div id="inam" class="carousel slide" data-ride="carousel">
@@ -326,7 +338,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -338,7 +350,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -350,7 +362,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -362,7 +374,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -379,7 +391,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -390,7 +402,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -402,7 +414,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -414,7 +426,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -425,7 +437,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -478,7 +490,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -490,7 +502,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -502,7 +514,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -514,7 +526,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -526,7 +538,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -543,7 +555,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -554,7 +566,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -566,7 +578,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -578,7 +590,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -589,7 +601,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -629,7 +641,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -641,7 +653,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -653,7 +665,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -665,7 +677,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -677,7 +689,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -694,7 +706,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -705,7 +717,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -717,7 +729,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -729,7 +741,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -740,7 +752,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -780,7 +792,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -792,7 +804,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -804,7 +816,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -816,7 +828,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -828,7 +840,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -845,7 +857,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -856,7 +868,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -868,7 +880,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -880,7 +892,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -891,7 +903,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -931,7 +943,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -943,7 +955,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -955,7 +967,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -967,7 +979,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -979,7 +991,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -996,7 +1008,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1007,7 +1019,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1019,7 +1031,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1031,7 +1043,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1042,7 +1054,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1082,7 +1094,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1094,7 +1106,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1106,7 +1118,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1118,7 +1130,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1130,7 +1142,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1147,7 +1159,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1158,7 +1170,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1170,7 +1182,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1182,7 +1194,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1193,7 +1205,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1219,7 +1231,8 @@
                 <div class="ex-two border py-3 px-3"><img src="images/brands/colgate&palmolive.webp" alt=""
                         class="img-fluid imii"></div>
                 <div class="ex-three border py-3 px-3"><img src="images/brands/national.avif" alt=""
-                        class="img-fluid imii"></div>
+                        class="img-fluid imii">
+                </div>
                 <div class="ex-four border py-3 px-3"><img src="images/brands/pg.avif" alt="" class="img-fluid imii">
                 </div>
                 <div class="ex-five border py-3 px-3"><img src="images/brands/shan.avif" alt="" class="img-fluid imii">
@@ -1251,7 +1264,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1263,7 +1276,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1275,7 +1288,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1287,7 +1300,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1299,7 +1312,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1316,7 +1329,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1327,7 +1340,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1339,7 +1352,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1351,7 +1364,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1362,7 +1375,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1401,7 +1414,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1413,7 +1426,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1425,7 +1438,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1437,7 +1450,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1449,7 +1462,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1466,7 +1479,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1477,7 +1490,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1489,7 +1502,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1501,7 +1514,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1512,7 +1525,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1552,7 +1565,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1564,7 +1577,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1576,7 +1589,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1588,7 +1601,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1600,7 +1613,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1617,7 +1630,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1628,7 +1641,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1640,7 +1653,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1652,7 +1665,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                         <div
                                             class="col-sm-12 col-lg-4 card-box-row border d-flex flex-column justify-content-between align-items-center">
@@ -1663,7 +1676,7 @@
                                             </div>
                                             <p class="mt-2">Knorr Chatt Patta Noodles Family Pack 244gm</p>
                                             <p class="align-self-start">KNOOR</p>
-                                            <button type="button" class="px-5 py-2 btn btn-danger">Add To Cart</button>
+                                            <button type="button" class="px-5 py-2 cartt">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1688,15 +1701,18 @@
         <!-- START OF body-row-five -->
         <div class="container">
             <h1 class="text-center fw-bold my-5">Welcome to Pakistan's 1st Online Grocery Store</h1>
-            <p class="text-center"><b>Groce World</b> is a Online Grocery Store which is established to provide trouble-free online shopping experience at
-                your fingertips. groceworld.com.pk, an online grocery store which is developed to provide an enhanced shopping
+            <p class="text-center"><b>Groce World</b> is a Online Grocery Store which is established to provide
+                trouble-free
+                online shopping experience at
+                your fingertips. groceworld.com.pk, an online grocery store which is developed to provide an enhanced
+                shopping
                 experience to its customers with the help of diversified product range in almost every category. Now you
                 can buy any products which you use on the daily basis without leaving the comfort of your beloved home.
                 As E-commerce industry is slowly booming, the online shopping industry is also witnessing the positive
                 shift where customers can enjoy the best-ever online shopping experience. QnE online shopping website
                 covers all aspect of the shopping with its multiple packages, products, and brands.</p>
-                <h1 class="text-center fw-bold my-5">Our Partners & Suppliers</h1>
-                <!--div class="partners d-flex justify-content-between align-items-center">
+            <h1 class="text-center fw-bold my-5">Our Partners & Suppliers</h1>
+            <!--div class="partners d-flex justify-content-between align-items-center">
                     <div class="partners-left-side d-flex flex-column justify-content-between">
                         <img src="images/partners/cheetay.png" alt="" class="img-fluid bg-info img-par">
                         <img src="images/partners/Bykea-logo.png" alt="" class="img-fluid bg-info img-par">
