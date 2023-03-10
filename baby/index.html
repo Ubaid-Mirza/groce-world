@@ -32,7 +32,7 @@
             <div class="container-fluid d-flex justify-content-end nav-search">
                 <form class="d-flex w-50">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="nav-search-btn w-50" type="submit">Search</button>
+                    <button class="nav-search-btn search-btn w-50" type="submit">Search</button>
                 </form>
                 <i class="fa fa-user px-5" style="font-size:30px"></i>
                 <i class="fa fa-shopping-cart px-2" style="font-size:30px"></i>
@@ -90,9 +90,38 @@
                     <a href="#">Link 3</a>
                 </div>
             </div>
-            <div class="dropdown">
+            <!--div class="dropdown">
                 <h5 class="fw-bold text-danger"><a href="#" class="text-decoration-none text-danger">View More</a></h5>
+            </div-->
+
+            <!-- START OF HIDDEN OFFCANVAS -->
+            <a class="off-link btn btn-primary px-3 py-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                &#9776;
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <ul class="off-list">
+                            <li class="py-3"><a href="" class="">Baby</a></li>
+                            <li class="py-3"><a href="" class="">Beverages & Drinks</a></li>
+                            <li class="py-3"><a href="" class="">Cosmetics</a></li>
+                            <li class="py-3"><a href="" class="">Home Living</a></li>
+                            <li class="py-3"><a href="" class="">Grocery</a></li>
+                            <li class="py-3"><a href="" class="">Frozen</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
             </div>
+            <!-- END OF HIDDEN OFFCANVAS -->
         </div>
         <!-- END OF NAVBAAR-OFFERS -->
         <!-- START OF BREADCRUMBS -->
@@ -167,11 +196,444 @@
                     <img src="/baby/images/bodyimg.webp" alt="" class="img-fluid">
                 </div>
 
+                <!-- START OF FLIP CARDS -->
+                <div class="carddds d-flex w-100 mt-5">
+                    <div class="flip-card w-50 mx-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/baby/images/baby.png" alt="Avatar" class="img-fluid w-100">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>flat 20% off on Exclusive Baby Accessories</h1>
+                                <p>Powder</p>
+                                <p>Nipples</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card w-50 mx-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/baby/images/free-shipping-canada.png" alt="Avatar" class="img-fluid w-100">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Free Shipping If Your Order More Than OneK</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF FLIP CARDS -->
             </div>
-
         </div>
-
         <!-- END OF BODY -->
+        <!-- START OF CONTENT -->
+        <div class="container-fluid content">
+            <!-- START OF CONTEN-ROW-ONE -->
+            <div class="content-row-one d-flex my-5">
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/feeder-nipples/one.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/feeder-nipples/two.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/feeder-nipples/three.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/feeder-nipples/four.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/feeder-nipples/five.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+            </div>
+            <!-- END OF CONTEN-ROW-ONE -->
+            <!-- START OF CONTEN-ROW-TWO -->
+            <div class="content-row-two d-flex my-5">
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Milks/one.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Milks/two.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Milks/three.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Milks/fouravif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Milks/five.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+            </div>
+            <!-- END OF CONTEN-ROW-TWO -->
+            <!-- START OF CONTEN-ROW-THREE -->
+            <div class="content-row-three d-flex my-5">
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Pampers/one.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Pampers/two.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Pampers/three.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Pampers/four.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/Pampers/five.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+            </div>
+            <!-- END OF CONTEN-ROW-THREE -->
+            <!-- START OF CONTEN-ROW-FOUR -->
+            <div class="content-row-four d-flex my-5">
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/wash/one.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/wash/two.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/wash/three.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/wash/four.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/wash/five.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+            </div>
+            <!-- END OF CONTEN-ROW-FOUR -->
+            <!-- START OF CONTEN-ROW-FIVE -->
+            <div class="content-row-five d-flex my-5">
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/toys/one.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/toys/two.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/toys/three.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/toys/four.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+
+                <div
+                    class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
+                    <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
+                    <img src="/baby/images/toys/five.avif" alt="" class="img-fluid py-2">
+                    <div class="price d-flex align-items-center justify-content-between w-100 px-4">
+                        <h6 class=" mb-0">Rs 255</h6>
+                        <p class="mb-0 text-decoration-line-through">Rs 300</p>
+                    </div>
+                    <p class="mt-2 px-4">Knorr Chatt Patta Noodles Family Pack 244gm</p>
+                    <p class="align-self-start fw-bolder px-4">KNOOR</p>
+                    <button type="button" class="px-5 py-2 bg-danger text-light fw-bold my-3 cartt">Add To Cart</button>
+                </div>
+            </div>
+            <!-- END OF CONTEN-ROW-FIVE -->
+        </div>
+        <!-- END OF CONTENT -->
+        <div class="container-fluid pagination-div d-flex justify-content-center my-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link bg-dark text-light fw-bold px-5" href="#">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-dark text-danger fw-bold px-5" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link bg-dark text-danger fw-bold px-5" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link bg-dark text-danger fw-bold px-5" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link bg-dark text-light fw-bold px-5" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- END OF PAGINATION -->
+        <!-- START OF FOOTER -->
+        <div class="footer d-flex w-100 justify-content-between bg-dark mt-5 px-5">
+            <!-- START OF LIST-ONE -->
+            <div class="col-one">
+                <ul class="footer-list py-5">
+                    <h3>GET TO KNOW US</h3>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <!-- END OF LIST-ONE -->
+            <!-- START OF LIST-TWO -->
+            <div class="col-two">
+                <ul class="footer-list py-5">
+                    <h3>SUPPORT</h3>
+                    <li><a href="#">FAQ'S</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+            <!-- END OF LIST-TWO -->
+            <!-- START OF LIST-THREE -->
+            <div class="col-three">
+                <ul class="footer-list py-5">
+                    <h3>Delivery</h3>
+                    <li><a href="#">Returns & Change</a></li>
+                </ul>
+            </div>
+            <!-- END OF LIST-THREE -->
+        </div>
+        <!-- END OF FOOTER -->
+        <!-- START OF FOOTER-NAVBAAR -->
+        <div class="container-fluid bg-dark py-2">
+            <nav class="navbar navbar-footer d-flex w-100">
+                <div class="container w-50">
+                    <a class="navbar-brand" href="#">
+                        <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
+                    </a>
+                </div>
+                <div class="container d-flex justify-content-evenly w-50">
+                    <i class="fa fa-facebook-f" style="font-size:30px; color:rgb(50, 50, 185)"></i>
+                    <i class="fa fa-instagram" style="font-size:30px; color:rgb(252, 65, 65)"></i>
+                    <i class="fa fa-twitter" style="font-size:30px; color: rgb(17, 155, 247)"></i>
+                    <i class="fa fa-snapchat" style="font-size:30px; color:yellow"></i>
+                </div>
+            </nav>
+        </div>
+        <!-- END OF FOOTER-NAVBAAR -->
     </div>
     <!-- END OF MAIN WRAPPER -->
 
