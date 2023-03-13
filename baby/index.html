@@ -22,26 +22,94 @@
     <!-- START OF MAIN WRAPPER -->
     <div class="wrapper">
         <!--START OF HEADER-NAVBAAR-->
-        <nav class="navbar navbar-header d-flex justify-content-between align-items-center w-100">
-            <div class="container-fluid nav-img">
+        <div class="navbaar-header d-flex justify-content-between align-items-center w-100 py-3 px-3">
+
+            <div class="nav-img">
                 <a class="navbar-brand" href="#">
-                    <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
+                    <img src="/baby/logo/logo.png" alt="" class="images-fluid logo">
                 </a>
+
+                <!-- START OF HIDDEN OFFCANVAS -->
+                <div class="hide-off">
+                    <button class="filter-btn px-3 py-2" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Filters</button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel" class="text-danger fw-bold fs-3">Filters</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="filter-list">
+                                <li><a href="" class="filter-list-link text-decoration">Baby</a></li>
+                                <li><a href="" class="filter-list-link">Baby Acessories</a></li>
+                                <li><a href="" class="filter-list-link">Baby Care</a></li>
+                                <li><a href="" class="filter-list-link">Baby Cream</a></li>
+                                <li><a href="" class="filter-list-link">Baby Foods & Formula</a></li>
+                                <li><a href="" class="filter-list-link">Baby Shower & Bath</a></li>
+                                <li><a href="" class="filter-list-link">Baby Diapers</a></li>
+                                <li><a href="" class="filter-list-link">Baby Bottles & Nipples</a></li>
+                                <li><a href="" class="filter-list-link">Baby Cereals</a></li>
+                                <li><a href="" class="filter-list-link">Baby Powders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="off-link px-3 py-2" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                        role="button" aria-controls="offcanvasExample">
+                        &#9776;
+                    </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                <ul class="off-list">
+                                    <li class="py-3"><a href="" class="">Baby</a></li>
+                                    <li class="py-3"><a href="" class="">Beverages & Drinks</a></li>
+                                    <li class="py-3"><a href="" class="">Cosmetics</a></li>
+                                    <li class="py-3"><a href="" class="">Home Living</a></li>
+                                    <li class="py-3"><a href="" class="">Grocery</a></li>
+                                    <li class="py-3"><a href="" class="">Frozen</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- END OF HIDDEN OFFCANVAS-->
+                </div>
             </div>
 
-            <div class="container-fluid d-flex justify-content-end nav-search">
-                <form class="d-flex w-50">
+            <div class="nav-search d-flex justify-content-between">
+                <form class="d-flex search-form-items">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="nav-search-btn search-btn w-50" type="submit">Search</button>
+                    <button class="nav-search-btn search-btn" type="submit">Search</button>
                 </form>
-                <i class="fa fa-user px-5" style="font-size:30px"></i>
-                <i class="fa fa-shopping-cart px-2" style="font-size:30px"></i>
+                <div class="dropdown-account d-flex mx-3">
+                    <button class="account-btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user px-2" style="font-size:30px;color:white;"></i>
+                    </button>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item text-light fw-bolder" href="#">Login</a></li>
+                        <li><a class="dropdown-item text-light fw-bolder" href="#">Signup</a></li>
+                    </ul>
+                    <i class="fa fa-shopping-cart py-1" style="font-size:30px;color:white;"></i>
+                </div>
             </div>
-        </nav>
+
+
+        </div>
         <!--END OF HEADER-NAVBAAR-->
         <!-- START OF NAVBAAR-OFFERS -->
-        <div class="offers d-flex justify-content-between align-items-center px-5">
-            <img src="/baby/images/offer.jfif" alt="" class="img-fluid offer-img">
+        <div class="offers d-flex justify-content-between align-items-center px-5 my-5">
+            <!-- img src="/baby/images/offer.jfif" alt="" class="img-fluid offer-img" -->
             <div class="dropdown">
                 <button class="dropbtn">Baby</button>
                 <div class="dropdown-content">
@@ -94,34 +162,7 @@
                 <h5 class="fw-bold text-danger"><a href="#" class="text-decoration-none text-danger">View More</a></h5>
             </div-->
 
-            <!-- START OF HIDDEN OFFCANVAS -->
-            <a class="off-link btn btn-primary px-3 py-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                aria-controls="offcanvasExample">
-                &#9776;
-            </a>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div>
-                        <ul class="off-list">
-                            <li class="py-3"><a href="" class="">Baby</a></li>
-                            <li class="py-3"><a href="" class="">Beverages & Drinks</a></li>
-                            <li class="py-3"><a href="" class="">Cosmetics</a></li>
-                            <li class="py-3"><a href="" class="">Home Living</a></li>
-                            <li class="py-3"><a href="" class="">Grocery</a></li>
-                            <li class="py-3"><a href="" class="">Frozen</a></li>
-                        </ul>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            <!-- END OF HIDDEN OFFCANVAS -->
+
         </div>
         <!-- END OF NAVBAAR-OFFERS -->
         <!-- START OF BREADCRUMBS -->
@@ -130,7 +171,7 @@
                 aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Library</li>
+                    <li class="breadcrumb-item" aria-current="page" active>Baby</li>
                 </ol>
             </nav>
         </div>
@@ -139,6 +180,9 @@
         <div class="container-fluid body d-flex">
             <div class="body-left-side border px-5 d-flex flex-column">
                 <h2 class="filter py-3 fw-bold">Filters</h2>
+                <!--div id="another" class="bg-danger">
+                    <h2>another</h2>
+                </div-->
                 <div class="form-check form-check-inline py-3">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label" for="inlineCheckbox1"><a href="#"
@@ -235,7 +279,7 @@
                 <div
                     class="col-sm-12 col-lg-4 card-box-row-one border d-flex flex-column justify-content-between align-items-center">
                     <span class="badge bg-danger align-self-start fw-bold fs-6">save 10%</span>
-                    <img src="/baby/images/feeder-nipples/one.avif" alt="" class="img-fluid py-2">
+                    <img src="/baby/images/feeder-nipples/one.avif" alt="" class="img-fluid py-2 feeder">
                     <div class="price d-flex align-items-center justify-content-between w-100 px-4">
                         <h6 class=" mb-0">Rs 255</h6>
                         <p class="mb-0 text-decoration-line-through">Rs 300</p>
@@ -622,10 +666,10 @@
             <nav class="navbar navbar-footer d-flex w-100">
                 <div class="container w-50">
                     <a class="navbar-brand" href="#">
-                        <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50">
+                        <img src="/baby/logo/logo.png" alt="" class="images-fluid w-50 logo-footer">
                     </a>
                 </div>
-                <div class="container d-flex justify-content-evenly w-50">
+                <div class="container social-icons d-flex justify-content-evenly w-50">
                     <i class="fa fa-facebook-f" style="font-size:30px; color:rgb(50, 50, 185)"></i>
                     <i class="fa fa-instagram" style="font-size:30px; color:rgb(252, 65, 65)"></i>
                     <i class="fa fa-twitter" style="font-size:30px; color: rgb(17, 155, 247)"></i>
