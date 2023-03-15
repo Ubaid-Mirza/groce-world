@@ -5,8 +5,7 @@
 }
 
 body{
-    background: rgb(184, 245, 111);
-    background: radial-gradient(circle, rgba(184, 245, 111, 1) 0%, rgba(155, 218, 153, 1) 100%);
+ background-color: white;
 }
 .logo {
     display: block;
@@ -16,19 +15,12 @@ body{
 .form {
     display: block;
     margin: 0 auto;
-    background: rgb(255, 217, 173);
-    background: linear-gradient(0deg, rgba(255, 217, 173, 1) 13%, rgba(255, 207, 207, 1) 100%);
-    border-radius: 50px;
+    background-color: whitesmoke;
+    box-shadow: -5px 9px 27px 5px #888888;
 }
-.form-heading-one {
-    color: rgba(43, 18, 18, 0.486);
-    font-weight: bold;
-}
-.form-heading-five {
-    color: azure;
-}
+
 .form-control {
-    font-weight: 900;
+    font-weight: 700 !important;
     width: 50%;
     height: 100%;
     transition: 0.5s;
@@ -47,10 +39,10 @@ body{
     color: brown;
     text-decoration: none;
 }
-.button-login {
-    font-weight: 900;
-    background-color: bisque;
+.button-login:hover{
+    background-color: blue !important;
 }
+
 .signup-link{
     text-decoration: none;
     color: brown;
@@ -63,3 +55,19 @@ body{
     background-color: rgb(231, 99, 99);
 }
 /* END OF FORM-CONTAINER */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .form{
+        width: 100% !important;
+    }
+    
+  }
+  @media screen and (max-width: 425px) {
+  .form-heading-five{
+    font-size: 10px !important;
+}
+.forgot-password-link{
+    font-size: 14px !important;
+}
+  }

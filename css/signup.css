@@ -5,8 +5,7 @@
 }
 
 body{
-    background: rgb(184, 245, 111);
-    background: radial-gradient(circle, rgba(184, 245, 111, 1) 0%, rgba(155, 218, 153, 1) 100%);
+    background-color: white;
 }
 .logo {
     display: block;
@@ -16,9 +15,8 @@ body{
 .form {
     display: block;
     margin: 0 auto;
-    background: rgb(198,255,255);
-    background: linear-gradient(90deg, rgba(198,255,255,1) 0%, rgb(255, 243, 243) 50%, rgba(250,219,243,1) 100%);
-    border-radius: 50px;
+    background-color: whitesmoke;
+    box-shadow: -5px 9px 27px 5px #888888;
 }
 .form-heading-one {
     color: rgba(43, 18, 18, 0.486);
@@ -48,9 +46,12 @@ body{
     color: brown;
     text-decoration: none;
 }
-.button-login {
+.button-signup {
     font-weight: 900;
     background-color: bisque;
+}
+.button-signup:hover {
+    background-color: blue !important;
 }
 .signup-link{
     text-decoration: none;
@@ -64,3 +65,18 @@ body{
     background-color: rgb(231, 99, 99);
 }
 /* END OF FORM-CONTAINER */
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .form{
+        width: 100% !important;
+    }
+    
+  }
+  @media screen and (max-width: 425px) {
+  .form-heading-five{
+    font-size: 10px !important;
+}
+.forgot-password-para {
+    font-size: 13px !important;
+}
+  }
