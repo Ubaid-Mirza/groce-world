@@ -104,6 +104,14 @@
 
 /* END OF NAVBAAR OFFERS */
 /* START OF OFFCANVAS */
+.offcanvas-logo{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.offcanvas-body{
+    padding: 0px !important;
+}
 .hide-off {
     display: none;
 }
